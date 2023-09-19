@@ -1,5 +1,7 @@
 <script setup>
   import Header from '@/components/home/Header.vue'
+  import OtherServices from '@/components/home/OtherServices.vue'
+  import Footer from '@/components/home/Footer.vue'
 
   // import { useToast } from "vue-toastification";
   // const toast = useToast();
@@ -10,5 +12,7 @@
 <template>
   <main id="home-view">
     <Header />
+    <OtherServices />
+    <Footer />
   </main>
 </template>
